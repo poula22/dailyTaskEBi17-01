@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="calc.css"/>
+  <title>Document</title>
+</head>
+<body>
+    <form name="calc">
+      <span>
+        <input type="text" placeholder="result" id="result_txt"/>
+        <input type="button" value="C" id="button_clear" onclick="cl()"/>
+      </span>
+      <div>
+        <input type="button" value="1" class="button_nums"/>
+        <input type="button" value="2" class="button_nums"/>
+        <input type="button" value="3" class="button_nums"/>
+        <input type="button" value="/" class="button_operations"/>
+      </div>
+      <div>
+        <input type="button" value="4" class="button_nums"/>
+        <input type="button" value="5" class="button_nums"/>
+        <input type="button" value="6" class="button_nums"/>
+        <input type="button" value="*" class="button_operations"/>
+      </div>
+      <div>
+        <input type="button" value="7" class="button_nums"/>
+        <input type="button" value="8" class="button_nums"/>
+        <input type="button" value="9" class="button_nums"/>
+        <input type="button" value="-" class="button_operations"/>
+      </div>
+      <div>
+        <input type="button" value="." class="button_nums"/>
+        <input type="button" value="0" class="button_nums"/>
+        <input type="button" value="=" id="button_equal"/>
+        <input type="button" value="+" class="button_operations"/>
+      </div>
+    </form>
+    <script src="calc.js"></script>
+</body>
+</html>

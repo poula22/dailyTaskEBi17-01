@@ -1,0 +1,56 @@
+form{
+    width:75%;
+    background-color:#9bbff4;
+    padding:40px;
+    border-radius:10px;
+    margin:auto;
+    max-width: 800px;
+    min-width:400px;
+  }
+  
+  div{
+    width:100%;
+    margin-top:2%;
+  }
+
+  #button_equal{
+    width:20%;
+    background-color:#bbdaa4;
+    font-size:20px;
+    border-radius: 10px;
+    color:white;
+  }
+  
+  .button_nums{
+    width:20%;
+    background-color:#bbdaa4;
+    font-size:20px;
+    border-radius: 10px;
+    color:white;
+  }
+  .button_nums:hover{
+    box-shadow: 0 1px green;
+  }
+  .button_operations:hover{
+    box-shadow: 0 1px green;
+  }
+  #button_clear{
+    width:37%;
+    font-size:20px;
+    background-color:#bbdaa4;
+    border-radius: 10px;
+    color:white;
+  }
+  .button_operations{
+    width:37%;
+    font-size:20px;
+    background-color:#bbdaa4;
+    border-radius: 10px;
+    color:white;
+  }
+  #result_txt{
+    width:60%;
+    font-size:20px;
+    border-radius: 10px;
+    text-align:center;
+  }
